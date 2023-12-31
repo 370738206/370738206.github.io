@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2023/12/29/hello-world/</url>
+    <url>/posts/16107.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -28,7 +28,7 @@
   </entry>
   <entry>
     <title>公益GPT-3.5</title>
-    <url>/2023/12/31/%E5%85%AC%E7%9B%8AGPT-3-5/</url>
+    <url>/posts/44429.html</url>
     <content><![CDATA[<p>个人公益站 ChatGPT，免费支持模型：</p>
 <ul>
 <li>gpt-3.5-turbo</li>
@@ -42,7 +42,7 @@
   </entry>
   <entry>
     <title>Windows + Hexo + Github Pages 搭建流程（简）及注意事项</title>
-    <url>/2023/12/30/%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B%EF%BC%88%E7%AE%80%EF%BC%89%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <url>/posts/2535.html</url>
     <content><![CDATA[<h1 id="Windows-Hexo-Github-Pages-搭建流程（简）及注意事项"><a href="#Windows-Hexo-Github-Pages-搭建流程（简）及注意事项" class="headerlink" title="Windows + Hexo + Github Pages 搭建流程（简）及注意事项"></a>Windows + Hexo + Github Pages 搭建流程（简）及注意事项</h1><h2 id="安装Git并与个人Github绑定"><a href="#安装Git并与个人Github绑定" class="headerlink" title="安装Git并与个人Github绑定"></a>安装Git并与个人Github绑定</h2><h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><ul>
 <li>建议选择稳定版本</li>
 <li>可自行配置 node_global（全局包存放目录）和 node_cache（缓存目录）地址</li>
@@ -83,7 +83,7 @@
 </ul>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d # 推送到个人仓库，第一次推送会弹登录框，可用于验证是否配置成功</span><br></pre></td></tr></table></figure>
 
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="!https://github.com/jerryc127/hexo-theme-butterfly">Butterfly Github仓库</a><br><a href="!https://butterfly.js.org/">Butterfly 演示站及配置教程</a></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly Github仓库</a><br><a href="https://butterfly.js.org/">Butterfly 演示站及配置教程</a></p>
 ]]></content>
       <categories>
         <category>教程</category>
