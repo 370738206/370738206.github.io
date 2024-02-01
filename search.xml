@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/16107.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>测试分类1</category>
-        <category>测试分类2</category>
-      </categories>
-      <tags>
-        <tag>测试标签1</tag>
-        <tag>测试标签2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>公益GPT-3.5</title>
     <url>/posts/44429.html</url>
     <content><![CDATA[<p>个人公益站 ChatGPT，免费支持模型：</p>
@@ -38,6 +12,24 @@
 <p>地址： next.jiujiumu.top<br>密码： next</p>
 <p>付费提供其他模型（gpt-4全系，dall-e-3，国内模型等，可试用），密码可能变更，有问题联系Q群：296313037 </p>
 <p>前端来自开源项目：<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web">https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>centos7新系统配置</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[<h1 id="centos7新系统配置"><a href="#centos7新系统配置" class="headerlink" title="centos7新系统配置"></a>centos7新系统配置</h1><h2 id="注意防火墙问题"><a href="#注意防火墙问题" class="headerlink" title="注意防火墙问题"></a>注意防火墙问题</h2><h2 id="修改系统时区"><a href="#修改系统时区" class="headerlink" title="修改系统时区"></a>修改系统时区</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">timedatectl set-timezone Asia/Shanghai</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-python3"><a href="#安装-python3" class="headerlink" title="安装 python3"></a>安装 python3</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install epel-release</span><br><span class="line">sudo yum install python3</span><br><span class="line">python3 --version</span><br></pre></td></tr></table></figure>
+
+<h1 id="安装-docker"><a href="#安装-docker" class="headerlink" title="安装 docker"></a>安装 docker</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum update</span><br><span class="line">sudo yum install -y yum-utils device-mapper-persistent-data lvm2</span><br><span class="line">sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</span><br><span class="line">sudo yum install docker-ce docker-ce-cli containerd.io</span><br><span class="line"></span><br><span class="line">sudo systemctl start docker</span><br><span class="line">sudo systemctl enable docker</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="安装-nginx"><a href="#安装-nginx" class="headerlink" title="安装 nginx"></a>安装 nginx</h1><p>新建文件 <em>&#x2F;etc&#x2F;yum.repos.d&#x2F;nginx.repo</em> 填入内容</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[nginx]</span><br><span class="line">name=nginx repo</span><br><span class="line">baseurl=http://nginx.org/packages/centos/$releasever/$basearch/</span><br><span class="line">gpgcheck=0</span><br><span class="line">enabled=1</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo yum install nginx</span><br><span class="line"></span><br><span class="line">sudo systemctl start nginx</span><br><span class="line">sudo systemctl enable nginx</span><br></pre></td></tr></table></figure>
+
+
 ]]></content>
   </entry>
   <entry>
